@@ -173,31 +173,39 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Full Stack Engineer Intern",
-    desc: "Developed android & IOS apps using native and hybird options, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    title: "Senior Software Engineer - Mutual Mobile | A Grid Dynamics Company",
+    desc: [
+      "Led the development of a fleet management app using Flutter, cutting development effort by 50% while achieving full feature parity with legacy native applications.",
+      "Developed a Flutter Web app for customer self-onboarding, incorporating credit card and document scanning, resulting in zero paperwork and a 30% reduction in processing time.",
+    ],
+    thumbnail: "/exp4.svg",
   },
   {
     id: 2,
-    title: "Associate Engineer - Click Labs",
-    desc: "Developed mobile app for both iOS & Android platforms using React Native. Used Node.js for backend logic.",
-    className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Software Engineer - Grid Dynamics",
-    desc: "Led the dev of a mobile app + web app for a client, from initial concept to deployment.",
-    className: "md:col-span-2",
+    title: "Software Engineer - Mutual Mobile | A Grid Dynamics Company",
+    desc: [
+      "Contributed to the development of a fleet management app using React Native and Next.js within a monorepo architecture, enhancing code reuse and maintainability, leading to faster feature development.",
+      "Designed and implemented a delivery-based application using React Native Web, improving cross-platform compatibility and reducing time-to-market by 20%.",
+    ],
     thumbnail: "/exp3.svg",
   },
   {
+    id: 3,
+    title: "Associate Software Engineer - Click Labs",
+    desc: [
+      "Engineered key features for a SaaS freelancer platform, including skill matching, custom fields, and N-level categories; collaborated with the design team to enhance user engagement, boosting retention rates by 15%.",
+    ],
+    thumbnail: "/exp2.svg",
+  },
+  {
     id: 4,
-    title: "Senior Software Engineer - Grid Dynamics",
-    desc: "Developed and maintained user-facing features using modern frontend technologies. Used latest technologies and best practices for backend.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    title: "Software Engineer Intern - Click Labs",
+    desc: [
+      "Developed a warehouse management app featuring barcode scanning, admin-configurable lists, and forms, improving inventory control efficiency and reducing errors by 25%.",
+      "Created a Point of Sale (POS) system with data visualization for billing, order tracking, and payment integration, leading to a 40% improvement in transaction processing time.",
+      "Built an in-house HR management app, allowing the company to transition from external software solutions to a fully integrated internal platform, enhancing HR operations efficiency by 20%.",
+    ],
+    thumbnail: "/exp1.svg",
   },
 ];
 

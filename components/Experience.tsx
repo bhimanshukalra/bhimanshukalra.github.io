@@ -9,8 +9,8 @@ const Experience = () => {
         My <span className="text-purple">work experience</span>
       </h1>
 
-      <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
-        {workExperience.map(({ id, title, desc, thumbnail, className }) => (
+      <div className="w-full mt-12 grid gap-10">
+        {workExperience.map(({ id, title, desc, thumbnail }) => (
           <Button
             key={id}
             duration={Math.floor(Math.random() * 10000) + 10000}
@@ -33,9 +33,14 @@ const Experience = () => {
                 <h1 className="text-start text-xl md:text-2xl font-bold">
                   {title}
                 </h1>
-                <p className="text-start text-white-100 mt-3 font-semibold">
-                  {desc}
-                </p>
+                {desc.map((descItem) => (
+                  <p
+                    key={descItem}
+                    className="text-start text-white-100 mt-3 font-semibold"
+                  >
+                    {`• ${descItem}`}
+                  </p>
+                ))}
               </div>
             </div>
           </Button>
