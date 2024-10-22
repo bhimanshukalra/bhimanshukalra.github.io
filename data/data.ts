@@ -72,7 +72,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Want to connect?",
+    title: "Convinced to chat?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -186,20 +186,22 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Senior Software Engineer - Mutual Mobile | A Grid Dynamics Company",
+    title: "Senior Software Engineer - Grid Dynamics",
     desc: [
       "Led the development of a fleet management app using Flutter, cutting development effort by 50% while achieving full feature parity with legacy native applications.",
       "Developed a Flutter Web app for customer self-onboarding, incorporating credit card and document scanning, resulting in zero paperwork and a 30% reduction in processing time.",
     ],
+    duration: "Aug 2022 - Present · 2 yrs",
     thumbnail: "/exp4.svg",
   },
   {
     id: 2,
-    title: "Software Engineer - Mutual Mobile | A Grid Dynamics Company",
+    title: "Software Engineer - Grid Dynamics",
     desc: [
       "Contributed to the development of a fleet management app using React Native and Next.js within a monorepo architecture, enhancing code reuse and maintainability, leading to faster feature development.",
       "Designed and implemented a delivery-based application using React Native Web, improving cross-platform compatibility and reducing time-to-market by 20%.",
     ],
+    duration: "Aug 2021 - Aug 2022 · 1 yr 1 month",
     thumbnail: "/exp3.svg",
   },
   {
@@ -208,11 +210,13 @@ export const workExperience = [
     desc: [
       "Engineered key features for a SaaS freelancer platform, including skill matching, custom fields, and N-level categories; collaborated with the design team to enhance user engagement, boosting retention rates by 15%.",
     ],
+    duration: "Jun 2020 - Aug 2021 · 1 yr 3 months",
     thumbnail: "/exp2.svg",
   },
   {
     id: 4,
     title: "Software Engineer Intern - Click Labs",
+    duration: "Apr 2019 - Jun 2020 · 1 yr 3 months",
     desc: [
       "Developed a warehouse management app featuring barcode scanning, admin-configurable lists, and forms, improving inventory control efficiency and reducing errors by 25%.",
       "Created a Point of Sale (POS) system with data visualization for billing, order tracking, and payment integration, leading to a 40% improvement in transaction processing time.",

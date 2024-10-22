@@ -1,8 +1,13 @@
 import { workExperience } from "@/data/data";
 import React from "react";
 import { Button } from "./ui/MovingBorders";
+import dayjs from "dayjs";
+import relativeTime from "dayjs/plugin/relativeTime";
 
 const Experience = () => {
+  dayjs.extend(relativeTime);
+  const firstDurationSuffix = dayjs("2024-08-01").toNow(true);
+
   return (
     <div className="py-20">
       <h1 className="heading">
@@ -10,7 +15,7 @@ const Experience = () => {
       </h1>
 
       <div className="w-full mt-12 grid gap-10">
-        {workExperience.map(({ id, title, desc, thumbnail }) => (
+        {workExperience.map(({ id, title, desc, thumbnail, duration }) => (
           <Button
             key={id}
             duration={Math.floor(Math.random() * 10000) + 10000}
@@ -30,9 +35,15 @@ const Experience = () => {
                 className="lg:w-32 md:w-20 w-16"
               />
               <div className="lg:ms-5">
-                <h1 className="text-start text-xl md:text-2xl font-bold">
-                  {title}
-                </h1>
+                <p className="flex justify-between">
+                  <span className="text-start text-xl md:text-2xl font-bold">
+                    {title}
+                  </span>
+                  <span>
+                    {duration}
+                    {id === 1 && ` ${firstDurationSuffix}`}
+                  </span>
+                </p>
                 {desc.map((descItem) => (
                   <p
                     key={descItem}
