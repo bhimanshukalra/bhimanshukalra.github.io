@@ -1,3 +1,17 @@
+export const heroSectionSelfIntro = {
+  introduction: "Hi, I'm Bhimanshu Kalra.",
+  profession: "A Full stack & hybrid mobile app developer.",
+  description: `As a Senior Software Engineer with over 4 years of experience, I
+            specialize in full-stack development and hybrid mobile apps,
+            bringing a deep understanding of both frontend and backend
+            technologies. My journey began as a native Android developer, and
+            over the years, I've expanded my skill set to include React
+            Native, Flutter, and the MERN stack (MongoDB, Express, React,
+            Node.js). Today, I focus on building seamless, scalable, and
+            high-performance applications that deliver exceptional user
+            experiences.`,
+};
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },

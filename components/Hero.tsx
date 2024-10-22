@@ -3,6 +3,7 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
+import { heroSectionSelfIntro } from "@/data/data";
 
 const Hero = () => {
   return (
@@ -25,17 +26,15 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamics Web Magic with Next.js
-          </h2>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Transforming Concepts into Seamless User Experiences"
+            primaryLine={heroSectionSelfIntro.introduction}
+            secondaryLine={heroSectionSelfIntro.profession}
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Bhimanshu Kalra, full stack developer.
-            <br />I build stuff.
+          <p className="text-left md:tracking-wider mb-4 text-lg">
+            {heroSectionSelfIntro.description}
+            <br />
           </p>
           <a href="#about">
             <MagicButton
