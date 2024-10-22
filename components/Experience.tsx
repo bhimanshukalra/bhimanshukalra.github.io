@@ -9,7 +9,7 @@ const Experience = () => {
   const firstDurationSuffix = dayjs("2024-08-01").toNow(true);
 
   return (
-    <div className="py-20">
+    <section id="experience" className="py-20">
       <h1 className="heading">
         My <span className="text-purple">work experience</span>
       </h1>
@@ -57,7 +57,7 @@ const Experience = () => {
           </Button>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

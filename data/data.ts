@@ -15,7 +15,7 @@ export const heroSectionSelfIntro = {
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Work experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -150,36 +150,76 @@ export const testimonials = [
   },
 ];
 
-export const companies = [
+export const techStack = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    label: "TypeScript",
+    img: "typescript.png",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    label: "React Native",
+    img: "reactnative.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    label: "React",
+    img: "reactjs.png",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    label: "Next.js",
+    img: "next.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    label: "Tailwind CSS",
+    img: "tailwind.png",
+  },
+  {
+    id: 6,
+    label: "Node.js",
+    img: "nodejs.svg",
+  },
+  {
+    id: 7,
+    label: "PostgreSQL",
+    img: "postgresql.png",
+  },
+  {
+    id: 8,
+    label: "Flutter",
+    img: "flutter.svg",
+  },
+  {
+    id: 9,
+    label: "CSS",
+    img: "css.png",
+  },
+  {
+    id: 10,
+    label: "Git",
+    img: "git.png",
+  },
+  {
+    id: 11,
+    label: "HTML",
+    img: "html.png",
+  },
+  {
+    id: 12,
+    label: "JavaScript",
+    img: "javascript.png",
+  },
+  {
+    id: 13,
+    label: "MongoDB",
+    img: "mongodb.png",
+  },
+  {
+    id: 14,
+    label: "Redux",
+    img: "redux.png",
   },
 ];
 

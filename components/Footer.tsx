@@ -23,7 +23,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
+        <p className="md:text-base text-sm md:font-normal md:mb-0 mb-5 font-light">
           Built with Next.js and Tailwind CSS
         </p>
 
