@@ -1,4 +1,3 @@
-import Approach from "@/components/Approach";
 import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
@@ -7,7 +6,6 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Grid from "@/components/ui/Grid";
 import { navItems } from "@/data/data";
-import Head from "next/head";
 
 export default function Home() {
   return (
